@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
                     val bitmap=data.extras.get("data") as Bitmap
 
                     imageView.setImageBitmap(bitmap)
-                    combierteBitmap(bitmap)
+                    convierteBitmap(bitmap)
                 }
             }
 
@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-    fun combierteBitmap(bitmap: Bitmap) {
+    fun convierteBitmap(bitmap: Bitmap) {
         println(bitmap.width)
         println(bitmap.height)
 
